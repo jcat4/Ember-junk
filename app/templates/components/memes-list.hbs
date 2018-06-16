@@ -1,0 +1,9 @@
+<h2>{{ title }}</h2>
+
+<ul>
+  {{#each memes as |meme|}}
+    <li>{{ meme }}</li>
+  {{/each}}
+</ul>
+
+{{yield}}
